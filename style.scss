@@ -1,0 +1,41 @@
+$maincolor: #5d524a;
+$light: lighten($maincolor,20%);
+$dark: darken($maincolor,10%);
+$lighter: lighten($maincolor,40%);
+$darker: darken($maincolor,30%);
+$lightest: lighten($maincolor,55%);
+
+body {
+
+  padding-top: 1em;
+}
+
+.results {
+  color: #ffffff; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  
+  div {
+    width: 500px;
+    padding: 10px;
+  }
+  
+  .maincolor {
+    background: $maincolor;
+  }
+  .light { 
+    background: $light;
+  }
+  .dark { 
+    background: $dark;
+  }
+  .lighter { 
+    background: $lighter;
+  }
+  .darker { 
+    background: $darker;
+  }
+  .lightest { 
+    background: $lightest;
+  }
+}
